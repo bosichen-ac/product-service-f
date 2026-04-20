@@ -5,73 +5,73 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Anker PowerCore 10000 Portable Charger".to_string(),
+            price: 29.99,
+            description: "Compact 10,000mAh power bank with fast charging support. Perfect for charging smartphones on the go.".to_string(),
+            image: "/powerbank.jpg".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "Logitech M185 Wireless Mouse".to_string(),
+            price: 19.99,
+            description: "Reliable wireless mouse with plug-and-play USB receiver and long battery life.".to_string(),
+            image: "/mouse.jpg".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "JBL Go 3 Bluetooth Speaker".to_string(),
+            price: 49.99,
+            description: "Portable waterproof Bluetooth speaker with surprisingly powerful sound and bold design.".to_string(),
+            image: "/speaker.jpg".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "Amazon Fire TV Stick Lite".to_string(),
+            price: 39.99,
+            description: "Stream your favorite content in HD with this compact and easy-to-use streaming device.".to_string(),
+            image: "/firestick.jpg".to_string()
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "Razer Kraken X Gaming Headset".to_string(),
+            price: 59.99,
+            description: "Lightweight gaming headset with immersive 7.1 surround sound and comfortable ear cushions.".to_string(),
+            image: "/headset.jpg".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "SanDisk 128GB Ultra USB 3.0 Flash Drive".to_string(),
+            price: 24.99,
+            description: "High-speed USB flash drive for quickly transferring files, photos, and videos.".to_string(),
+            image: "/usb.jpg".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "TP-Link AC1200 WiFi Router".to_string(),
+            price: 69.99,
+            description: "Dual-band WiFi router offering fast speeds and stable connectivity for home networks.".to_string(),
+            image: "/router.jpg".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Apple EarPods (3.5mm Headphone Jack)".to_string(),
+            price: 25.00,
+            description: "Classic wired earbuds with built-in remote and microphone for calls and music.".to_string(),
+            image: "/earpods.jpg".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Belkin USB-C to HDMI Adapter".to_string(),
+            price: 34.99,
+            description: "Connect your USB-C laptop or tablet to an HDMI display for presentations or streaming.".to_string(),
+            image: "/adapter.jpg".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "Philips Hue White Smart Bulb (Single Pack)".to_string(),
+            price: 29.99,
+            description: "Smart LED bulb controllable via app or voice assistant. Great for smart home setups.".to_string(),
+            image: "/bulb.jpg".to_string()
         }
     ]
 }

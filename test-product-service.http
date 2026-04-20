@@ -66,28 +66,28 @@ Host: localhost:3002
 DELETE /11 
 Host: localhost:3002
 
-### Get ai service health
-GET /ai/health
-Host: localhost:3002
+# ### Get ai service health
+# GET /ai/health
+# Host: localhost:3002
 
-### Get product description from ai service
-POST /ai/generate/description
-Host: localhost:3002
-Content-Type: application/json
+# ### Get product description from ai service
+# POST /ai/generate/description
+# Host: localhost:3002
+# Content-Type: application/json
 
-{
-    "name": "Seafarer's Tug Rope",
-    "tags": ["toy","dog"]
-}
+# {
+#     "name": "Seafarer's Tug Rope",
+#     "tags": ["toy","dog"]
+# }
 
 
-### Get product image from ai service
-POST /ai/generate/image
-Host: localhost:3002
-Content-Type: application/json
+# ### Get product image from ai service
+# POST /ai/generate/image
+# Host: localhost:3002
+# Content-Type: application/json
 
-{
-    "name": "Seafarer's Tug Rope",
-    "description": "Engage your pup in a game of tug-of-war with the Seafarer's Tug Rope. Made from durable materials, this toy is perfect for interactive playtime and bonding with your furry friend."
-}
+# {
+#     "name": "Seafarer's Tug Rope",
+#     "description": "Engage your pup in a game of tug-of-war with the Seafarer's Tug Rope. Made from durable materials, this toy is perfect for interactive playtime and bonding with your furry friend."
+# }
 
